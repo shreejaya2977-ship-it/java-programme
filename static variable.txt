@@ -1,0 +1,18 @@
+class Student{  
+   static int marks ;  
+}  
+public class Main{  
+   public static void main(String args[])
+   {  
+       Student s1 = new Student();  
+       Student s2 = new Student();  
+       Student s3 = new Student();
+       s1.marks = 900 ;  
+       s2.marks = 750 ; 
+       s3.marks = 800 ; 
+       Student.marks = 1000;  
+       System.out.println("S1's marks is: " + s1.marks);  
+       System.out.println("S2's marks is: " + s2.marks);
+       System.out.println("S3's marks is: " + s3.marks);  
+   }  
+}   

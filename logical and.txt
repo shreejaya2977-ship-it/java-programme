@@ -1,0 +1,15 @@
+public class Main {    
+public static void main(String args[])
+ {
+    int a=10;
+    int b=15;
+    int c=5;
+    if((a < b) && (++a < c))  
+    System.out.println("if block is executed.");   
+    else  
+    System.out.println("else block is executed.");   
+    System.out.println("The value of a is: " + a);  
+}  
+
+}
+  

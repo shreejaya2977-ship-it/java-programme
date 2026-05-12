@@ -1,0 +1,27 @@
+  
+class BankStatement{
+    public String Bankname;
+    public String AccountHolder;
+    public String AccountNumber;
+    public String IFSCcode;
+
+    public BankStatement()
+    {
+    this.Bankname = "State bank of india";
+    this.AccountHolder = "Jayasree";
+    this.AccountNumber = "1234567890";
+    this.IFSCcode = "SBI1234";
+    }
+}
+public class Main{
+    public static void main(String[] args)
+    {
+        BankStatement obj = new BankStatement();
+        System.out.println("Bankstatement");
+        System.out.println("Bankname: " +obj.Bankname);
+        System.out.println("AccountHolder: " + obj.AccountHolder);
+        System.out.println("AccountNumber: " + obj.AccountNumber);
+        System.out.println("IFSCcode: " + obj.IFSCcode);
+    }
+
+    }
