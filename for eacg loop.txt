@@ -1,0 +1,11 @@
+public class Main {    
+    public static void main(String[] args)
+     {    
+        String[] fruits = {"Mango","Apple","Watermelon","kiwi"};    
+        System.out.println("Printing the content of the array fruits:"); 
+        for(String Fruits:fruits) 
+        {    
+            System.out.println(Fruits);    
+        }    
+    }    
+}    
