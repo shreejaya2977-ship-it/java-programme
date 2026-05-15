@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+    class Main{
+        public static void main(String[] args)
+        {
+        Scanner myObj = new Scanner(System.in);
+        String Username;
+        int Mobilenumber;
+        System.out.println("Enter username");
+        System.out.println("Enter your Mobilenumber:");
+        
+        Username = myObj.nextLine();
+        Mobilenumber = myObj.nextInt();
+        
+        System.out.println("UserName is "+ Username );
+        System.out.println ("MobileNumber is "+ Mobilenumber);
+    }
+}
+
